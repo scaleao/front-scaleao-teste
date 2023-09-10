@@ -1,31 +1,39 @@
-# nutricao-inteligente-frontend
+<h1>Como rodar localmente o FRONT: </h1>
+<h3>REQUISITOS:</h3>
+<ul>
+<li>Node 16.x</li>
+<li>NPM</li>
+</ul>
+<h3>COMANDOS:</h3>
+<p>Instale as dependencias do projeto: Vue 3.x e Quasar</p>
 
-## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<p>O build do projeto sera gerado dentro da pasta <code>./dist</code> na raiz do projeto, para <code>gerar o build</code> use:</p>
 
-### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+<p>Para rodar o <code>servidor local</code> use:</p>
+
 ```
-npm run lint
+npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<h3>DICAS UTEIS:</h3>
 
-## Deploy
-É necessário apenas rodar o comondo `npm run build` e copiar o conteúdo da pasta `dist` para a raiz do bucket do S3
+<h4>A <code>BASEURL</code> do projeto esta configurada em <code>./src/utils/api.ts</code></h4>
+<p>O endereço do produção:</p>
 
-## Para produção (após os testes)
+```
+http://15.229.23.85
+```
 
-O arquivo `src/utils/api.ts` deve ter a url (https://localhost:80) alterada para a url final da API
+<p>O endereço de development, usando a API local, acesse o repo <a href="https://github.com/scaleao/back-scaleao-teste#como-rodar-localmente-a-api-">aqui</a></p>
+
+```
+http://localhost:80
+```

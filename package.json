@@ -1,0 +1,53 @@
+{
+  "name": "nutricao-inteligente-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve-prod": "vue-cli-service serve --mode production",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "apexcharts": "^3.35.2",
+    "axios": "^0.26.0",
+    "class-transformer": "^0.5.1",
+    "core-js": "^3.6.5",
+    "es6-shim": "^0.35.6",
+    "moment": "^2.29.1",
+    "mustache": "^4.2.0",
+    "quasar": "^2.0.0",
+    "reflect-metadata": "^0.1.13",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.0.0",
+    "vue-apexcharts": "^1.6.2",
+    "vue-draggable-next": "^2.1.1",
+    "vue-router": "^4.0.0-0",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-html2pdf": "^1.1.2",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/mustache": "^4.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^8.4.1",
+    "prettier": "^2.2.1",
+    "sass": "1.32.12",
+    "sass-loader": "^10.1.0",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-quasar": "~4.0.4"
+  }
+}

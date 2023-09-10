@@ -7,6 +7,8 @@
 <h3>COMANDOS:</h3>
 <p>Instale as dependencias do projeto: Vue 3.x e Quasar</p>
 
+<h3>CONFIRA O PROJETO HOSPEDADO <a href="http://front-scaleao-teste.s3-website-sa-east-1.amazonaws.com/dashboard">AQUI<a></h3>
+
 ```
 npm install
 ```

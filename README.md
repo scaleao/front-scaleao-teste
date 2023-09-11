@@ -1,5 +1,5 @@
 <h1>Como rodar localmente o FRONT: </h1>
-<h3>CONFIRA O PROJETO HOSPEDADO <a href="http://front-scaleao-teste.s3-website-sa-east-1.amazonaws.com/dashboard">AQUI<a></h3>
+<h3>CONFIRA O PROJETO HOSPEDADO <a href="http://front-scaleao-teste.s3-website-sa-east-1.amazonaws.com">AQUI<a></h3>
 <h3>REQUISITOS:</h3>
 <ul>
 <li>Node 16.x</li>
